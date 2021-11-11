@@ -1,0 +1,182 @@
+<!--IT20129576 J.K.M Dulaj Thiwanka-->
+<!DOCTYPE html>
+
+<html>
+     <head>
+		<title>Airport Tranfer</title>
+		<link rel="stylesheet" href="..\css\styles.css">
+		<link rel="script" href="..\js\new.js">
+	 </head>
+     <body style="background-image:url('../images/photo.jpg')" onload=display_ct();>
+
+<hr class="hr1">
+	<table class="tab1" style="width:100%" border=0px>
+	<tr>
+	<td class="td1"><center><img src="../images/logo.png" style="width:120px;height:120px;" alt="logo" ></center></td>
+	<td class="td2"><h3>&nbsp;&nbsp;&nbsp;RENTA Vehicle.LK</h3></td>
+	<td class="td3">
+	&nbsp;&nbsp;&nbsp;&nbsp;
+	<td><a href="SignIn.html" class="bb"><button class="btn" type="button" id="reg"><b>Login</b></a></button></td>
+	<div class="set">
+	<td><a href="register.html" class="bb"><button class="btn" type="button" id="reg"><b>Register</b></a></button></td>
+	</div>
+	</td>
+	<td class="td1"><a href="UserAcc.html"><center><img src="../images/new.png" style="width:120px;height:120px;" alt="profile"></center></a></td>
+	</tr>
+	 </table>
+
+
+
+<!------------------------------------------------------------------------------------------------>
+
+
+		<div class="newslayout">
+			<a href="home.html">HOME</a>
+			<a href="vehicle.html" class="b1" type="button" id="button1" onclick="loadData('button1')">RENT</a>
+			<a href="contact.html">VEHICLES</a>
+			<a href="about_us.html">CONTACT US</a>
+			<a href="about_us.html">ABOUT US</a>
+			<a href="UserAcc.html">MY PROFILE</a>
+			<div class="search">
+
+
+				<input type="text" placeholder="Search">
+				<label class="fa fa-search input-icon"></label>
+
+				</div>
+			</div>
+		</div>
+
+<!------------------------------------------------------------------------------------------------>
+	<br>
+
+
+
+	<div class="container1">
+	<center>
+	
+	<br>
+	<center><b><h2>AIRPORT  TRANSFER CATEGORY</h2></b></center><br>
+	<table border="0px" width="1000px" height="170px" class="drive">
+  <tr>
+      <th width="160px"><a href="self.html"><button type="button" class="drivetypes"><b>SELF DRIVE<b></b></button></a></th>
+      <th width="160px"><a href="Withdriver.html"><button type="button" class="drivetypes"><b>WITH DRIVER</b></b></button></a></th>
+      <th width="160px"><a href="airport.html"><button type="button" class="drivetypes"><b><b>AIRPORT TRANSFER<b></b></button></a></th>
+      <th width="160px"><a href="Taxi.html"><button type="button" class="drivetypes"><b><b>TAXI</b></b></button></a></th>
+      <th width="160px"><a href="wedding.html"><button type="button" class="drivetypes"><b><b>WEDDINGS</b></b> </button></a></th>
+  </tr>
+
+  <tr>
+		<form>
+		<th colspan="5"></th><br>
+  </tr>
+  
+  <tr>
+  
+    <th colspan="5">
+		<form>
+			<b><h2>Pickup Location</b></h2>
+		<select name="Locations" class="select1">
+			<option selected>&nbsp;&nbsp;&nbsp;-Select the Pickup Location-</option>
+			<option value="01">&nbsp;&nbsp;&nbsp;Bandaranayake International Airport</option>
+			<option value="02">&nbsp;&nbsp;&nbsp;Maththala International Airport</option>
+			<option value="03">&nbsp;&nbsp;&nbsp;Colombo 005 Rathmalana International Airport</option>
+			<option value="04">&nbsp;&nbsp;&nbsp;Ampara Airport</option>
+			<option value="05">&nbsp;&nbsp;&nbsp;Polgolla Reservoir Airport(KDZ)s</option>
+		</select>
+		</th>
+  </tr>
+</table>
+<br>
+
+<table border=0 width="1000px" height="300px" class="drive">
+
+  <tr>
+      <th width="200px">
+			<font size="5px">Pickup Date<br><br></font>
+			<input type="date">
+	  </th>
+	  
+      <th width="200px">
+			<font size="5px">Pickup Time<br><br></font>
+			<input type="time">
+	  </th>
+	  
+      <th width="200px">
+			<font size="5px">Return Date<br><br></font>
+			<input type="date">
+	  </th>
+      <th width="200px">
+			<font size="5px">Return Time<br><br></font>
+			<input type="time">
+	  </th>
+  </tr>
+  <tr>
+	<th width="200px" colspan="2">
+		<font size="5px"><br>Number Of Days</font><br><br>
+		<select name="Days" class="select2">
+			<option value="01"><font size="02" selected><b>--Days--</b></font></option>
+			<option value="01"><font size="04"><b>&nbsp;&nbsp;&nbsp;&nbsp;00</b></font></option>      
+			<option value="02"><font size="04"><b>&nbsp;&nbsp;&nbsp;&nbsp;01</b></font></option>        
+			<option value="03"><font size="04"><b>&nbsp;&nbsp;&nbsp;&nbsp;02</b></font></option>        
+			<option value="04"><font size="04"><b>&nbsp;&nbsp;&nbsp;&nbsp;03</b></font></option>  
+			<option value="05"><font size="04"><b>&nbsp;&nbsp;&nbsp;&nbsp;04</b></font></option>        
+			<option value="06"><font size="04"><b>&nbsp;&nbsp;&nbsp;&nbsp;05</b></font></option>        
+			<option value="07"><font size="04"><b>&nbsp;&nbsp;&nbsp;&nbsp;06</b></font></option>        
+		</select>
+	  
+	  
+	  </th>
+      <th width="200px" colspan="2">
+	  
+	  <font size="5px"><br>Vehicle Type</font><br><br>
+	  <select name="Days" class="select3">
+		<option value="01"><font size="02" selected><b>&nbsp;&nbsp;&nbsp;&nbsp;--Select Vehicle--</b></font></option>
+		<option value="01"><font size="02"><b>&nbsp;&nbsp;&nbsp;&nbsp;Lorries</b></font></option>  
+		<option value="01"><font size="02"><b>&nbsp;&nbsp;&nbsp;&nbsp;SUV</b></font></option> </option> 
+		<option value="01"><font size="02"><b>&nbsp;&nbsp;&nbsp;&nbsp;Trucks</b></font></option> </option> 
+		<option value="01"><font size="02"><b>&nbsp;&nbsp;&nbsp;&nbsp;Cabs</b></font></option> </option> 
+		<option value="01"><font size="02"><b>&nbsp;&nbsp;&nbsp;&nbsp;All Vehicles</b></font></option> </option> 
+		</select>
+	
+	  
+	  </th>
+  </tr>
+  
+  <tr>
+	<center>
+      <th width="200px" colspan="4"><br><a href="Rental_Vehicle_Page.html"><input type="button" value="Search" class="red" id="sub_btn" onclick="c();"> </input><br><br></a></th>
+	 </center>
+  </tr>
+</table>
+
+	</div>
+
+	</div>
+</table>
+<footer>
+<!------------------------------------------------------------------------------------------------>
+<table style="border:0px solid black;margin-top:60px">
+<br>
+<hr class="hr1"><br>
+      <table class="tab2" style="width:100%;" border=0px >
+	  <tr>
+
+	  <td style="width:40px";><center><a href="https://www.facebook.com/"><img src="../images/fb.png" style="width:30px;" alt="fb" class="footerph"></a></center></td>
+	  <td style="width:40px";><center><a href="https://www.Twitter.com/"><img src="../images/tw.png" style="width:30px" alt="fb" class="footerph"></a></center></td>
+	  <td style="width:40px";><a href="https://www.Instagram.com/"><center><img src="../images/insta.png" style="width:30px" alt="fb" class="footerph"></a></center></td>
+	  <td style="width:40px";><a href="https://mail.google.com/mail/u/0/?tab=km#inbox"><center><img src="../images/mail.png" style="width:30px" alt="fb" class="footerph"></center></td>
+	  <td style="width:300px"></div></td>
+	  <td style="width:40px";><font size="04" style="float:right"><b><center>Hotline:0764465200</b></font></center></td>
+	  <td style="width:50px"></td>
+	  </tr>
+	  </table>
+	<!--<hr class="hr1">-->
+</table>
+
+</footer>
+<!------------------------------------------------------------------------------------------------>
+ <function>
+	 </body>
+</html>
+<!--IT20129576 J.K.M Dulaj Thiwanka-->

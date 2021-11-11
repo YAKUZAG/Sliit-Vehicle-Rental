@@ -1,0 +1,158 @@
+<!DOCTYPE html> 
+
+<html>
+     <head>           
+		<title>User Account Page</title>  
+		<link rel="stylesheet" href="..\css\styles1.css">
+		<script type="text/javascript" src="../js/myScript.js">
+		</script>
+		<script>
+			var currentDate = new Date();
+			var month = currentDate.getMonth()+1;
+			var day = currentDate.getDate();
+			var year = currentDate.getFullYear();
+			var fullDate = month + "/" + day + "/" + year;
+			document.write(fullDate);
+		</script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+	 </head>
+     <body style="background-image:url('../images/photo.jpg')" onload=display_ct();>
+	 
+		<hr class="hr1">
+			<table class="tab1" style="width:100%" border=0px>
+				<tr>
+					<td class="td5"><center><img src="../images/logo.png" style="width:150px;height:150px;" alt="logo" ></center></td>
+					<td class="td6"><h3>&nbsp;&nbsp;&nbsp;RENTA VEHICLE.LK</h3></td>
+					<td class="td7"></td>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<!--td><button class="btn" type="button" id="log"><b>Login</b></button></td-->
+					<!--td style="width:100px"><label for="CustomerName" class="h2">CUSTOMER's NAME</label></td-->
+					<!--td class="td5"><label for="CustomerName" class="h2" id="log" class="fbincn">CUSTOMER's NAME</label></td-->
+						<!--div class="set">
+							<td><button class="btn" type="button" id="reg"><b>Register</b></button></td>
+						</div-->
+					<!--/td-->
+					<td class="td9"><h5 style="float:right">CUSTOMER's NAME</h5></td>
+					<td class="td8"><center><a href="UserAcc.html"><img src="../images/new.png" style="width:120px;height:120px;" alt="logo" ></a></center></td>
+				</tr>
+			</table>
+	 
+	 
+<!------------------------------------------------------------------------------------------------>	 	
+		
+			<div class="newslayout">
+				<a href="SignIn.html">HOME</a>
+				<a href="rent.html">RENT</a>
+				<a href="news.html" class="b1" type="button" id="button1" onclick="loadData('button1')">VEHICLES</a>
+				<a href="register.html">CONTACT US</a>
+				<a href="about_us.html">ABOUT US</a>
+				<a href="UserAcc.html">MY PROFILE</a>
+				<div class="search">
+					<input type="text" placeholder="Search">
+					<label class="fa fa-search input-icon"></label>
+				</div>
+			</div>
+			
+<!------------------------------------------------------------------------------------------------>
+
+	<form action="/action_page.php" action="/JavaScript/Index" onsubmit="return checkPassword()">	
+		<div class="container12">
+		<h1 style="background-color:red;border-radius:10px;height:50px;">&nbsp;&nbsp;&nbsp;Contact US For Any Enquiry</h1>
+			<table style="width:100%;height:500px" border="0px" class="contacttable">
+				<tr>
+					<td rowspan=4 class="td10">
+						<div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+							<div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div>
+							<script>
+								(function () {
+									var setting = {"height":400,"width":900,"zoom":15,"queryString":"Sri Lanka Foundation Institute, Independence Square, Colombo, Sri Lanka","place_id":"ChIJy2oxsBFZ4joRqVJWzM9WHxM","satellite":false,"centerCoord":[6.906875682956945,79.86026876667995],"cid":"0x131f56cfcc5652a9","lang":"en","cityUrl":"/sri-lanka/colombo-19459","cityAnchorText":"Map of Colombo, Colombo District, Sri Lanka","id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3","embed_id":"293858"};
+									var d = document;
+									var s = d.createElement('script');
+									s.src = 'https://1map.com/js/script-for-user.js?embed_id=293858';
+									s.async = true;
+									s.onload = function (e) {
+									window.OneMap.initMap(setting)
+									};
+									var to = d.getElementsByTagName('script')[0];
+									to.parentNode.insertBefore(s, to);
+									})();
+							</script>
+						</div>
+					</td>
+					<td rowspan=5 style="width:2%">&nbsp;</td>
+					<td colspan=1 class="td11"><b>&nbsp;&nbsp;MAIL US</b></td>
+				</tr>
+
+				<tr>
+					<td class="td121">
+						<!--label for="firstname" class="h10">Last Name:</label><br-->
+						<input type="email" id="mail" name="mail" class="input12" placeholder="From:" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required>
+					</td>
+
+				</tr>
+
+				<tr>
+					<td class="td121">
+						<!--label for="firstname" class="h10">E-mail Address:</label><br-->
+						<input type="email" id="mail" name="mail" class="input13" placeholder="To:" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required>
+					</td>
+
+				</tr>
+
+				<tr>
+					<td class="td121">
+						<!--label for="repsw" class="h10">Current Password:</label><br-->
+						<textarea id="repsw" name="repsw" rows="6" cols="70" class="input12" placeholder="Type your Message Here:" required></textarea>
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+						<div class="contactusdiv">
+							<label class="con_address"><img src="../images/location.png" style="width:25px;height:25px;" class="posi_icon"><b>&nbsp;No.234,Kandy Rd,Kelaniya<b></label>&nbsp;&nbsp;&nbsp;&nbsp;
+							<label class="con_email"><img src="../images/emailus.png" style="width:25px;height:25px;" class="posi_icon"><b>&nbsp;rentavehicle@gmail.com</b></label>&nbsp;&nbsp;&nbsp;&nbsp;
+							<label class="con_phoneno"><img src="../images/callus.png" style="width:25px;height:25px;" class="posi_icon"><b>&nbsp;011-7775550</b></label>
+						</div>
+					</td>
+					<div class="set">
+							<td class="td12">
+								<!--button class="btn123" type="button" id="sav"><a href="SignIn.html"><b>Save Changes</b></a></button-->
+								<input type="submit" value="Submit" class="input14" id="sav">
+							</td>
+					</div>
+				</tr>
+			</table>
+		</div>
+	</form>
+<!------------------------------------------------------------------------------------------------>
+<br>
+<footer>
+<hr class="hr1"><br>
+<Table style="width:100%" class="k1">
+<th class="x1">
+<table style="border:0px solid black;margin-top:50px">
+<!--<hr class="hr1"><br>-->
+
+      <table class="tab2" style="width:100%;" border=0px >
+	  <tr>
+	  <center>
+	  <td><center><a href="https://www.facebook.com/"><img src="../images/fb.png" style="width:30px" alt="fb" class="p1" id="fb"></a></center></td>
+	  <td><center><a href="https://www.Twitter.com/"><img src="../images/tw.png" style="width:30px" alt="tw" class="p1" id="tw"></a></center></td>
+	  <td><center><a href="https://www.Instagram.com/"><img src="../images/insta.png" style="width:30px" alt="insta" class="p1" id="insta"></a></center></td>
+	  <td><center><a href="https://www.Gmail.com/"><img src="../images/mail.png" style="width:30px" alt="mail" class="p1" id="mail"></a></center></td>
+	  <td style="width:400px"></td>
+	  <td><font size="04" style="float:right"><b><center>Hotline:0764465200</b></font></center></td>
+	  <td style="width:40px"></td>
+	  </tr>
+	  </table>
+	<!--<hr class="hr1">-->
+</table>
+</th>
+</table>
+</footer>
+
+<!------------------------------------------------------------------------------------------------>
+ 
+	 </body>
+</html>

@@ -1,0 +1,92 @@
+.contacttable{
+	margin-top: -25px;
+}
+.contact_td10{
+	width:60%;
+	height:auto;
+}
+.contact_td11{
+	font-family:Times New Roman;
+	font-size:40px;
+	width:80%;
+	height:auto;
+}
+.contact_td121{
+	width:100%;
+	height:10px;
+}
+.contact_input12 {
+	width: 95%;
+	padding: 12px;
+	border: 1px solid black;
+	border-radius: 5px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	margin-left: 20px;
+}
+
+.contact_input13 {
+	width: 95%;
+	padding: 12px;
+	border: 1px solid black;
+	border-radius: 5px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	margin-left: 20px;
+}
+.contact_contactusdiv{
+	position:static;
+	border-radius:10px;
+	background-color: rgba(204, 110, 27, 0.6);
+	margin-top: 1px;
+    margin-left: 10px;
+	padding: 5px 0 15px 0;
+	width:870px;
+	height:60px;
+}
+.contact_contactusdiv:hover{
+	background-color: rgba(204, 110, 27, 0.9);
+	font-size:17px;
+}
+.contact_con_address{
+	margin-left: 50px;
+}
+.contact_con_email{
+	margin-left: 70px;
+}
+.contact_con_phoneno{
+	margin-left: 90px;
+}
+.contact_posi_icon{
+	margin-left:4px;
+	margin-top:20px;
+}
+.contact_set{
+	display:inline-block;
+}
+.contact_td12{
+	width:1%;
+	height:80px;
+}
+.contact_input14 {
+	background-color:blue;
+	color:black;
+	width: 25%;
+	padding: 12px;
+	border: 3px solid black;
+	border-radius: 50px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	margin-left: 410px;
+	font-family:"calibri";
+	font-size:18px;
+}
+.vl {
+  border-left: 12px solid black;
+  height: 500px;
+  width:0px;
+  margin-left: 8px;
+}

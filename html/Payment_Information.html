@@ -1,0 +1,215 @@
+<!--IT20129576 J.K.M Dulaj Thiwanka-->
+<!DOCTYPE html>
+
+<html>
+     <head>
+		<title>Payment Information</title>
+		<link rel="stylesheet" href="..\css\styles.css">
+		<link rel="script" href="..\js\new.js">
+	 </head>
+     <body style="background-image:url('../images/photo.jpg')" onload=display_ct();>
+
+<hr class="hr1">
+	<table class="tab1" style="width:100%" border=0px>
+	<tr>
+	<td class="td1"><center><img src="../images/logo.png" style="width:120px;height:120px;" alt="logo" ></center></td>
+	<td class="td2"><h3>&nbsp;&nbsp;&nbsp;RENTA Vehicle.LK</h3></td>
+	<td class="td3">
+	&nbsp;&nbsp;&nbsp;&nbsp;
+	<td><a href="SignIn.html" class="bb"><button class="btn" type="button" id="reg"><b>Login</b></a></button></td>
+	<div class="set">
+	<td><a href="register.html" class="bb"><button class="btn" type="button" id="reg"><b>Register</b></a></button></td>
+	</div>
+	</td>
+	<td class="td1"><a href="UserAcc.html"><center><img src="../images/new.png" style="width:120px;height:120px;" alt="profile"></center></a></td>
+	</tr>
+	 </table>
+
+
+
+<!------------------------------------------------------------------------------------------------>
+
+
+		<div class="newslayout">
+			<a href="home.html">HOME</a>
+			<a href="vehicle.html" class="b1" type="button" id="button1" onclick="loadData('button1')">RENT</a>
+			<a href="contact.html">VEHICLES</a>
+			<a href="about_us.html">CONTACT US</a>
+			<a href="about_us.html">ABOUT US</a>
+			<a href="UserAcc.html">MY PROFILE</a>
+			<div class="search">
+
+
+				<input type="text" placeholder="Search">
+				<label class="fa fa-search input-icon"></label>
+
+				</div>
+			</div>
+		</div>
+
+<!------------------------------------------------------------------------------------------------>
+
+
+
+<div style= "background-image:url('../images/car3.jpg');">
+<h1 style="background-color:red;border-radius:15px;">&nbsp;&nbsp;&nbsp;Payment Information</h1>
+
+
+<table style="width:100%" border="0px">
+<tr>
+   <td width="500px"> <td>
+   <td><form action="/action_page.php">
+   <h4 class="L2"><u>Choose your payment method</u></h4>
+    
+  <input type="radio" id="visa" name="Card_sys" value="visa">
+  <label for="male"><img src="../images/visa.jpg" height="50" width="60" class="radio"></label>
+  <input type="radio" id="mastercard" name="Card_sys" value="mastercard">
+  <label for="female"><img src="../images/mastercard.jpg" height="50" width="60" class="radio"></label>
+  <input type="radio" id="AmericanExpress" name="Card_sys" value="AmericanExpress">
+  <label for="other"><img src="../images/AmericanEx.jpg" height="50" width="60" class="radio"><br><br></label>
+
+   
+   
+    <label class="L1" for="cars">&nbsp;&nbsp;Credit Card:</label>
+   <select name="CC" id="CC">
+ <option value></option>
+    <option value="HNB">HNB</option>
+    <option value="Sampath">Sampath</option>
+    <option value="HSBC">HSBC</option>
+    <option value=" Seylan"> Seylan</option>
+  </select><br><br>
+
+<label class="L1"  for="Security">&nbsp;&nbsp;Security Code:</label>
+  <input type="text" id="Card" name="Card"><br>
+<br>
+  <label class="L1"  for="Credit">&nbsp;&nbsp;Card Number:</label>
+  <input type="text" id="Credit" name="Card"><br><br>
+  <label class="L1"  for="City">&nbsp;&nbsp;City:</label>
+  <input type="text" id="City" name="Card">
+<br>
+<br>
+  <label class="L1"  for="Name">&nbsp;&nbsp;Name on card:</label>
+  <input type="text" id="Card" name="Card"><br><br>
+  <label class="L1"  for="State">&nbsp;&nbsp;State:</label>
+  <input type="text" id="State" name="Card">
+<br>
+<br>
+   <label class="L1"  for="Year">&nbsp;&nbsp;Expires:</label>
+   <select name="Year" id="Year">
+ <option value>2023</option>
+    <option value="2021">2021</option>
+    <option value="2020">2020</option>
+    <option value="2019">2019</option>
+    <option value="2018">2018</option>
+    <option value="2017">2017</option>
+    <option value="2016">2016</option>
+    <option value="2015">2015</option>
+    <option value="2014">2014</option>
+  </select> 
+    <select name="Month" id="Month" class="mon">
+ <option value>12</option>
+    <option value="11">11</option>
+    <option value="10">10</option>
+    <option value="9">9</option>
+    <option value="8">8</option>
+    <option value="7">7</option>
+    <option value="6">6</option>
+    <option value="5">5</option>
+    <option value="4">4</option>
+    <option value="3">3</option>
+    <option value="2">2</option>
+    <option value="1">1</option>
+  </select>  <br><br>
+
+<label class="L1"  for="Zip">&nbsp;&nbsp;Zip code:</label>
+  <input type="text" id="Zip" name="Zip"><br>
+
+</form>
+
+   </td>
+   
+   
+   
+   <td width="500px"></td>
+</tr>
+</table>
+</div>
+<hr>
+
+<div style= "background-image:url('../images/img10.jpg'); ">
+<table style="width:100%" border="0px" class="F1">
+<tr>
+<h3 class="F1">Journey Information</h3>
+  <tr>
+    <td>ServicenType<br> 
+    <h4>SELF DRIVE<h4></td>
+    <td>Drop-off Date and Time<br>
+    <h4>15/09/2020</td>
+    <td><h4>Rental</h4></td>
+	<td>10,000LKR</td>
+
+  </tr>
+  <tr>
+    <td>Pickup location<br><h3>Bandaranayake International Airport<h3></td>
+    <td>Charge Per KM <br><h3>30 LKR<h3></td>
+    <td><h3>10% VAT</h3></td>
+	<td>2,000LKR</td>
+	
+  </tr>
+  <tr>
+    <td>Dropoff location<br><h3>Bandaranayake International Airport<h3></td>
+    <td>Free Mileage <br><h3>1000KM</h3></td>
+    <td><h3>Total Rental</h3></td><td>12,000LKR<br></td>
+	
+    <tr><td>Pickup Date And Time<br><h3>10/09/2020<h3></td>
+	<td></td><td><h3>Airport Charges</h3></td>
+	<td>5,000LKR</td></tr>
+   </tr>
+    <td></td>
+    <td></td>
+    <td><h3>Total Amount</h3></td>
+	<td>17,000LKR<br></td>
+    </tr>
+	<table border="0" width="100%">
+     <tr>
+     <td><center>
+     <button class="btn1" ><b>PAY NOW</b></button>
+	 </center>
+     </td>
+     </tr>
+   </table>
+    </td>
+  </tr>
+</table>
+</div>
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<br>
+<br>
+<br>
+
+<footer>
+<!------------------------------------------------------------------------------------------------>
+<table style="border:0px solid black;margin-top:60px">
+<br>
+<hr class="hr1"><br>
+      <table class="tab2" style="width:100%;" border=0px >
+	  <tr>
+
+	  <td style="width:40px";><center><a href="https://www.facebook.com/"><img src="../images/fb.png" style="width:30px;" alt="fb" class="footerph"></a></center></td>
+	  <td style="width:40px";><center><a href="https://www.Twitter.com/"><img src="../images/tw.png" style="width:30px" alt="fb" class="footerph"></a></center></td>
+	  <td style="width:40px";><a href="https://www.Instagram.com/"><center><img src="../images/insta.png" style="width:30px" alt="fb" class="footerph"></a></center></td>
+	  <td style="width:40px";><a href="https://mail.google.com/mail/u/0/?tab=km#inbox"><center><img src="../images/mail.png" style="width:30px" alt="fb" class="footerph"></center></td>
+	  <td style="width:300px"></div></td>
+	  <td style="width:40px";><font size="04" style="float:right"><b><center>Hotline:0764465200</b></font></center></td>
+	  <td style="width:50px"></td>
+	  </tr>
+	  </table>
+	<!--<hr class="hr1">-->
+</table>
+
+</footer>
+<!------------------------------------------------------------------------------------------------>
+ <function>
+	 </body>
+</html>
+<!--IT20129576 J.K.M Dulaj Thiwanka-->
